@@ -1,0 +1,91 @@
+.sale{
+    padding-top: 140px;
+    padding-bottom: 20px;
+    height: $mg-height*4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+
+    @for $i from 1 through 5 {
+        &__producto#{$i}{
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+
+            &__parrafo{
+                background-color: red;
+                color: white;
+                text-transform: uppercase;
+                width: $mc-width/2;
+                text-align: center;
+                margin: 1rem 0 0 0.5rem;
+            }
+
+            
+            &__titulo{
+                font-size: 40px;
+                font-family: 'Quando', serif;
+                text-align: center;
+                color: silver;
+            }
+
+            &__link{
+                margin: 0 0 1rem 2rem;
+            }
+        }
+    }
+    @for $i from 6 through 9 {
+        &__producto#{$i}{
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+
+            &__parrafo--silver{
+                background-color: silver;
+                color: black;
+                text-transform: uppercase;
+                width: 30%;
+                text-align: center;
+                margin: 1rem 0 0 0.5rem;
+            }
+
+            
+            &__titulo{
+                font-size: 40px;
+                font-family: 'Quando', serif;
+                text-align: center;
+                color: silver;
+            }
+
+            &__link{
+                margin: 0 0 1rem 2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .sale{
+        
+        @for $i from 1 through 6{
+            &__producto#{$i}{
+                &__parrafo{
+                    width: $mc-width;
+                }
+            }
+        }
+    
+        @for $i from 6 through 9 {
+            &__producto#{$i}{
+                &__parrafo{
+                    width: $m-width;
+                }
+            }
+        }
+    }
+}

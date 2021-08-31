@@ -1,0 +1,56 @@
+ /*NOVEDADES*/
+ 
+ 
+.novedades {
+    padding-top: 120px;
+    height: $mg-height*1.6;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+    
+    &__novedad1, &__novedad2, &__novedad3, &__novedad4, &__novedad5, &__novedad6{
+        background: silver;
+
+        &__link{
+            &__btn{
+                background-color: rgb(31, 31, 31);
+                color: silver;
+                border:groove;
+                padding: 10px;
+            }
+        }
+    }
+    
+    
+    &__novedad1, &__novedad2, &__novedad3{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 10px;
+
+        &__link{
+            &__btn:hover{
+                animation: flash;
+                animation-duration: 1s;
+            }
+        }
+    }
+    
+    
+    &__novedad4, &__novedad5, &__novedad6{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 10px;
+
+        &__link{
+            &__btn:hover{
+                animation: flash;
+                animation-duration: 1s;
+            }
+        }
+    }
+}

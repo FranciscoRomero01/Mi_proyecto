@@ -1,0 +1,106 @@
+@mixin productos {
+    background-color: silver;
+    padding-top: 120px;
+    height: $mg-height*2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5rem repeat(2, 1fr);
+    grid-gap: 0.5rem;
+    text-align: center;
+
+
+    h1{
+        font-family: 'Nanum Gothic Coding', serif;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-family: 'Yesteryear', cursive;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+    &__titulo{
+        background-image: linear-gradient(white, silver);
+        grid-column-start: 1;
+        grid-column-end: 4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    @for $i from 1 through 6 {
+            &__producto#{$i}{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-size: 415px 350px;
+            background-repeat: no-repeat;
+
+
+            &__link{
+                button{
+                    background-color: rgb(31, 31, 31);
+                    color: silver;
+                    border:groove;
+                    padding: 10px;
+                    cursor: pointer;
+                }
+            }
+
+            &__link:hover{
+                animation: shakeX;
+                animation-duration: 2s;
+            }
+        }
+    }
+    
+    &__producto1:hover, &__producto2:hover, 
+    &__producto3:hover, &__producto4:hover, 
+    &__producto5:hover, &__producto6:hover{
+        transition: all 2s;
+        transform: scale(1.2,1.2);
+    }
+}
+
+@mixin serviciomedia {
+    height: 100rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100px repeat(3, 1fr);
+
+
+        &__titulo{
+            grid-area: 1 / 1 / 2 / 4;
+        }
+
+        &__producto1, &__producto2, &__producto3, &__producto4, &__producto5,&__producto6{
+            background-size: 500px 500px;
+        }
+
+        &__producto1{
+            grid-area: 2 / 1 / 3 / 2;
+        }
+
+        &__producto2{
+            grid-area: 2 / 2 / 3 / 4;
+        }
+
+        &__producto3{
+            grid-area:  3 / 1 / 4 / 2;
+        }
+
+        &__producto4{
+            grid-area: 3 / 2 / 4 / 4;
+        }
+
+        &__producto5{
+            grid-area: 4 / 1 / 5 / 2;
+        }
+
+        &__producto6{
+            grid-area: 4 / 2 / 5 / 4;
+        }
+}
