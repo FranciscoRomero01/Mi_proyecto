@@ -71,11 +71,21 @@
 
 @media only screen and (max-width: 992px){
     .sale{
+        height: $mg-height*2;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 200px);
         
-        @for $i from 1 through 6{
+        @for $i from 1 through 5{
             &__producto#{$i}{
+
                 &__parrafo{
                     width: $mc-width;
+                    font-size: 15px;
+                }
+
+                &__titulo{
+                    font-size: 20px;
                 }
             }
         }
@@ -84,8 +94,22 @@
             &__producto#{$i}{
                 &__parrafo{
                     width: $m-width;
+                    font-size: 15px;
+                }
+
+                &__titulo{
+                    font-size: 20px;
                 }
             }
         }
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .sale{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat();
     }
 }

@@ -362,6 +362,10 @@ p {
   .contacto {
     padding-top: 140px; } }
 
+@media screen and (max-width: 600px) {
+  .contacto {
+    background-size: 800px 100%; } }
+
 /*SERVICIOS*/
 .marca1 {
   background-color: silver;
@@ -819,6 +823,101 @@ p {
   .producto1 {
     padding-top: 140px; } }
 
+@media screen and (max-width: 600px) {
+  .marca1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 3200px; }
+    .marca1__titulo {
+      width: 100%; }
+    .marca1__producto1 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca1__producto2 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca1__producto3 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca1__producto4 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca1__producto5 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca1__producto6 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+  .marca2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 3200px; }
+    .marca2__titulo {
+      width: 100%; }
+    .marca2__producto1 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca2__producto2 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca2__producto3 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca2__producto4 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca2__producto5 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca2__producto6 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+  .marca3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 3200px; }
+    .marca3__titulo {
+      width: 100%; }
+    .marca3__producto1 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca3__producto2 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca3__producto3 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca3__producto4 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca3__producto5 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; }
+    .marca3__producto6 {
+      background-size: 100% 500px;
+      width: 100%;
+      height: 500px; } }
+
 /*NOVEDADES*/
 .novedades {
   padding-top: 120px;
@@ -851,6 +950,58 @@ p {
     .novedades__novedad4__link__btn:hover, .novedades__novedad5__link__btn:hover, .novedades__novedad6__link__btn:hover {
       animation: flash;
       animation-duration: 1s; }
+
+@media screen and (max-width: 768px) {
+  .novedades {
+    height: 3000px;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .novedades__novedad1 {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center; }
+    .novedades__novedad2 {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center; }
+    .novedades__novedad3 {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center; }
+    .novedades__novedad4 {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center; }
+    .novedades__novedad5 {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center; }
+    .novedades__novedad6 {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center; } }
+
+@media screen and (max-width: 600px) {
+  .novedades {
+    padding-top: 120px; } }
+
+@media screen and (max-width: 500px) {
+  .novedades {
+    padding-top: 100px; } }
 
 .sale {
   padding-top: 140px;
@@ -1033,26 +1184,62 @@ p {
       margin: 0 0 1rem 2rem; }
 
 @media only screen and (max-width: 992px) {
-  .sale__producto1__parrafo {
-    width: 25%; }
-  .sale__producto2__parrafo {
-    width: 25%; }
-  .sale__producto3__parrafo {
-    width: 25%; }
-  .sale__producto4__parrafo {
-    width: 25%; }
-  .sale__producto5__parrafo {
-    width: 25%; }
-  .sale__producto6__parrafo {
-    width: 25%; }
-  .sale__producto6__parrafo {
-    width: 75%; }
-  .sale__producto7__parrafo {
-    width: 75%; }
-  .sale__producto8__parrafo {
-    width: 75%; }
-  .sale__producto9__parrafo {
-    width: 75%; } }
+  .sale {
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px); }
+    .sale__producto1__parrafo {
+      width: 25%;
+      font-size: 15px; }
+    .sale__producto1__titulo {
+      font-size: 20px; }
+    .sale__producto2__parrafo {
+      width: 25%;
+      font-size: 15px; }
+    .sale__producto2__titulo {
+      font-size: 20px; }
+    .sale__producto3__parrafo {
+      width: 25%;
+      font-size: 15px; }
+    .sale__producto3__titulo {
+      font-size: 20px; }
+    .sale__producto4__parrafo {
+      width: 25%;
+      font-size: 15px; }
+    .sale__producto4__titulo {
+      font-size: 20px; }
+    .sale__producto5__parrafo {
+      width: 25%;
+      font-size: 15px; }
+    .sale__producto5__titulo {
+      font-size: 20px; }
+    .sale__producto6__parrafo {
+      width: 75%;
+      font-size: 15px; }
+    .sale__producto6__titulo {
+      font-size: 20px; }
+    .sale__producto7__parrafo {
+      width: 75%;
+      font-size: 15px; }
+    .sale__producto7__titulo {
+      font-size: 20px; }
+    .sale__producto8__parrafo {
+      width: 75%;
+      font-size: 15px; }
+    .sale__producto8__titulo {
+      font-size: 20px; }
+    .sale__producto9__parrafo {
+      width: 75%;
+      font-size: 15px; }
+    .sale__producto9__titulo {
+      font-size: 20px; } }
+
+@media screen and (max-width: 600px) {
+  .sale {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(); } }
 
 /*@import './mediasquery';*/
 /*FOOTER*/
