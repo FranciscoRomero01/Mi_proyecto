@@ -754,7 +754,7 @@ p {
   .marca3__producto1, .marca3__producto2, .marca3__producto3, .marca3__producto4, .marca3__producto5, .marca3__producto6 {
     background-color: white; }
 
-@media only screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .marca1 {
     height: 100rem;
     display: grid;
@@ -1239,7 +1239,7 @@ p {
   .sale {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(); } }
+    height: 1200px; } }
 
 /*@import './mediasquery';*/
 /*FOOTER*/
