@@ -109,7 +109,14 @@
 @media screen and (max-width: 600px) {
     .sale{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        height: 1200px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        height: 3400px;
+
+        @for $i from 1 through 9{
+            &__producto#{$i}{
+                height: 350px;
+            }
+        }
     }
 }

@@ -91,5 +91,26 @@
 @media screen and (max-width: 600px) {
     .contacto{
         background-size: 800px 100%;
+
+        &__titulo{
+            font-size: 50px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .contacto{
+        &__titulo{
+            font-size: 35px;
+        }
+
+        &__formulario{
+            &__boton{
+                &__submit{
+                    margin-bottom: 15px;
+                }
+            }
+        }
     }
 }

@@ -43,10 +43,10 @@
     
     
     &__logo{
-            &__item__img{
-                height: 80px;
-                width: 10rem;
-            }
+        &__item__img{
+            height: 80px;
+            width: 10rem;
+        }
     }
        
 
@@ -54,7 +54,6 @@
        
         &__navbar{
             padding: 0%;
-            /*background-color: rgb(255, 255, 255);*/
             list-style: none;
             font-family: 'Charm', cursive;
             font-size: 20px;
@@ -205,6 +204,14 @@
     .cabecera{
         height: 100px;
 
+        &__logo{
+            &__item{
+                &__img{
+                    width: 8rem;
+                }
+            }
+        }
+
         &__idiomasIniciarSesion{
             
             a{
@@ -216,7 +223,7 @@
                 height: 30px;
                 width: 30px;
                 display: inline-block;
-                margin: 10px 25px;
+                margin: 10px 10px;
             }
         }
 
@@ -235,6 +242,10 @@
                 background-color: silver;
                 list-style: none;
             }
+        }
+        
+        a{
+            margin: 0%;
         }
     }
 }
