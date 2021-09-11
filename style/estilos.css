@@ -932,35 +932,16 @@ p {
 /*NOVEDADES*/
 .novedades {
   padding-top: 120px;
-  height: 640px;
+  height: 920px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr); }
-  .novedades__novedad1, .novedades__novedad2, .novedades__novedad3, .novedades__novedad4, .novedades__novedad5, .novedades__novedad6 {
-    background: silver; }
-    .novedades__novedad1__link__btn, .novedades__novedad2__link__btn, .novedades__novedad3__link__btn, .novedades__novedad4__link__btn, .novedades__novedad5__link__btn, .novedades__novedad6__link__btn {
-      background-color: #1f1f1f;
-      color: silver;
-      border: groove;
-      padding: 10px; }
-  .novedades__novedad1, .novedades__novedad2, .novedades__novedad3 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
-    padding: 10px; }
-    .novedades__novedad1__link__btn:hover, .novedades__novedad2__link__btn:hover, .novedades__novedad3__link__btn:hover {
-      animation: flash;
-      animation-duration: 1s; }
-  .novedades__novedad4, .novedades__novedad5, .novedades__novedad6 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 10px; }
-    .novedades__novedad4__link__btn:hover, .novedades__novedad5__link__btn:hover, .novedades__novedad6__link__btn:hover {
-      animation: flash;
-      animation-duration: 1s; }
+  grid-template-rows: repeat(2, 400px); }
+  .novedades__novedad1 .carousel-inner, .novedades__novedad2 .carousel-inner, .novedades__novedad3 .carousel-inner, .novedades__novedad4 .carousel-inner, .novedades__novedad5 .carousel-inner, .novedades__novedad6 .carousel-inner {
+    height: 100%;
+    width: 100%; }
+  .novedades__novedad1 img, .novedades__novedad2 img, .novedades__novedad3 img, .novedades__novedad4 img, .novedades__novedad5 img, .novedades__novedad6 img {
+    height: 100%;
+    width: 100%; }
 
 @media screen and (max-width: 768px) {
   .novedades {
