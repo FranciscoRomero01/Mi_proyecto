@@ -28,7 +28,7 @@
 
     @for $i from 1 through 6 {
         &__producto#{$i}{
-            background-color: silver;
+            background-image: url("../img/Converse/Converse-#{$i}.jpeg");
         }
     }
 }
@@ -38,8 +38,10 @@
     @include productos;
     padding: 0%;
 
-    &__producto1, &__producto2, &__producto3, &__producto4, &__producto5, &__producto6{
-        background-color: white;
+    @for $i from 1 through 6 {
+        &__producto#{$i}{
+            background-image: url("../img/Otros/Otros-#{$i}.jpeg");
+        }
     }
 }
 
@@ -47,7 +49,6 @@
 @media screen and (max-width: 1200px) {
     .marca1{
         @include serviciomedia;
-        
     }
 
     .marca2{

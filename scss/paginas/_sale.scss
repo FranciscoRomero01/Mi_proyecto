@@ -9,10 +9,11 @@
 
     @for $i from 1 through 5 {
         &__producto#{$i}{
-            background-color: black;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            background-image: url("../img/Sale/Sale-#{$i}.jpeg");
+            background-size: 435px 470px;
 
 
             &__parrafo{
@@ -35,6 +36,8 @@
             &__link{
                 margin: 0 0 1rem 2rem;
             }
+
+            
         }
     }
     @for $i from 6 through 9 {
@@ -43,6 +46,8 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            background-image: url("../img/UltimaUnidad/UltimaU-#{$i}.jpeg");
+            background-size: 435px 470px;
 
 
             &__parrafo--silver{
@@ -71,13 +76,16 @@
 
 @media only screen and (max-width: 992px){
     .sale{
-        height: $mg-height*2;
+        height: $mg-height*4.5;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 200px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         
         @for $i from 1 through 5{
-            &__producto#{$i}{
+            &__producto#{$i}{ 
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+
 
                 &__parrafo{
                     width: $mc-width;
@@ -92,6 +100,9 @@
     
         @for $i from 6 through 9 {
             &__producto#{$i}{
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+
                 &__parrafo{
                     width: $m-width;
                     font-size: 15px;
@@ -116,6 +127,20 @@
         @for $i from 1 through 9{
             &__producto#{$i}{
                 height: 350px;
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+
+                &__parrafo{
+                    width: 35%;
+                }
+            }
+        }
+
+        @for $i from 1 through 5{
+            &__producto#{$i}{
+                &__parrafo{
+                    width: 15%;
+                }
             }
         }
     }
