@@ -3,16 +3,6 @@
   margin: 0%;
   padding: 0%; }
 
-ol, ul {
-  display: flex;
-  flex-direction: row;
-  padding: 0px;
-  display: inline-block;
-  text-decoration: none; }
-
-p {
-  margin: 0px; }
-
 /*COLORES*/
 /*MEDIDAS W*/
 /*MEDIDAS H*/
@@ -492,7 +482,97 @@ p {
     .marca1__producto6__link:hover {
       animation: shakeX;
       animation-duration: 2s; }
-  .marca1__producto1:hover, .marca1__producto2:hover, .marca1__producto3:hover, .marca1__producto4:hover, .marca1__producto5:hover, .marca1__producto6:hover {
+  .marca1__producto7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca1__producto7__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca1__producto7__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca1__producto8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca1__producto8__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca1__producto8__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca1__producto9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca1__producto9__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca1__producto9__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca1__producto10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca1__producto10__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca1__producto10__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca1__producto11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca1__producto11__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca1__producto11__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca1__producto12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca1__producto12__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca1__producto12__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca1__producto1:hover, .marca1__producto2:hover, .marca1__producto3:hover, .marca1__producto4:hover, .marca1__producto5:hover, .marca1__producto6:hover, .marca1__producto7:hover, .marca1__producto8:hover, .marca1__producto9:hover, .marca1__producto10:hover, .marca1__producto11:hover, .marca1__producto12:hover {
     transition: all 2s;
     transform: scale(1.2, 1.2); }
   .marca1__producto1 {
@@ -626,7 +706,97 @@ p {
     .marca2__producto6__link:hover {
       animation: shakeX;
       animation-duration: 2s; }
-  .marca2__producto1:hover, .marca2__producto2:hover, .marca2__producto3:hover, .marca2__producto4:hover, .marca2__producto5:hover, .marca2__producto6:hover {
+  .marca2__producto7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca2__producto7__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca2__producto7__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca2__producto8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca2__producto8__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca2__producto8__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca2__producto9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca2__producto9__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca2__producto9__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca2__producto10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca2__producto10__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca2__producto10__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca2__producto11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca2__producto11__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca2__producto11__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca2__producto12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca2__producto12__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca2__producto12__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca2__producto1:hover, .marca2__producto2:hover, .marca2__producto3:hover, .marca2__producto4:hover, .marca2__producto5:hover, .marca2__producto6:hover, .marca2__producto7:hover, .marca2__producto8:hover, .marca2__producto9:hover, .marca2__producto10:hover, .marca2__producto11:hover, .marca2__producto12:hover {
     transition: all 2s;
     transform: scale(1.2, 1.2); }
   .marca2__titulo {
@@ -653,7 +823,10 @@ p {
   grid-template-rows: 5rem repeat(2, 1fr);
   grid-gap: 0.5rem;
   text-align: center;
-  padding: 0%; }
+  padding: 0%;
+  height: 1600px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 5rem repeat(4, 1fr); }
   .marca3 h1 {
     font-family: 'Nanum Gothic Coding', serif;
     text-transform: uppercase;
@@ -759,7 +932,97 @@ p {
     .marca3__producto6__link:hover {
       animation: shakeX;
       animation-duration: 2s; }
-  .marca3__producto1:hover, .marca3__producto2:hover, .marca3__producto3:hover, .marca3__producto4:hover, .marca3__producto5:hover, .marca3__producto6:hover {
+  .marca3__producto7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca3__producto7__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca3__producto7__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca3__producto8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca3__producto8__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca3__producto8__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca3__producto9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca3__producto9__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca3__producto9__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca3__producto10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca3__producto10__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca3__producto10__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca3__producto11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca3__producto11__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca3__producto11__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca3__producto12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: 415px 350px;
+    background-repeat: no-repeat; }
+    .marca3__producto12__link button {
+      background-color: #1f1f1f;
+      color: silver;
+      border: groove;
+      padding: 10px;
+      cursor: pointer; }
+    .marca3__producto12__link:hover {
+      animation: shakeX;
+      animation-duration: 2s; }
+  .marca3__producto1:hover, .marca3__producto2:hover, .marca3__producto3:hover, .marca3__producto4:hover, .marca3__producto5:hover, .marca3__producto6:hover, .marca3__producto7:hover, .marca3__producto8:hover, .marca3__producto9:hover, .marca3__producto10:hover, .marca3__producto11:hover, .marca3__producto12:hover {
     transition: all 2s;
     transform: scale(1.2, 1.2); }
   .marca3__producto1 {
@@ -774,6 +1037,18 @@ p {
     background-image: url("../img/Otros/Otros-5.jpeg"); }
   .marca3__producto6 {
     background-image: url("../img/Otros/Otros-6.jpeg"); }
+  .marca3__producto7 {
+    background-image: url("../img/Otros/Otros-7.jpeg"); }
+  .marca3__producto8 {
+    background-image: url("../img/Otros/Otros-8.jpeg"); }
+  .marca3__producto9 {
+    background-image: url("../img/Otros/Otros-9.jpeg"); }
+  .marca3__producto10 {
+    background-image: url("../img/Otros/Otros-10.jpeg"); }
+  .marca3__producto11 {
+    background-image: url("../img/Otros/Otros-11.jpeg"); }
+  .marca3__producto12 {
+    background-image: url("../img/Otros/Otros-12.jpeg"); }
 
 @media screen and (max-width: 1200px) {
   .marca1 {
@@ -783,8 +1058,30 @@ p {
     grid-template-rows: 100px repeat(3, 1fr); }
     .marca1__titulo {
       grid-area: 1 / 1 / 2 / 4; }
-    .marca1__producto1, .marca1__producto2, .marca1__producto3, .marca1__producto4, .marca1__producto5, .marca1__producto6 {
-      background-size: 500px 500px; }
+    .marca1__producto1 {
+      background-size: 100% 100%; }
+    .marca1__producto2 {
+      background-size: 100% 100%; }
+    .marca1__producto3 {
+      background-size: 100% 100%; }
+    .marca1__producto4 {
+      background-size: 100% 100%; }
+    .marca1__producto5 {
+      background-size: 100% 100%; }
+    .marca1__producto6 {
+      background-size: 100% 100%; }
+    .marca1__producto7 {
+      background-size: 100% 100%; }
+    .marca1__producto8 {
+      background-size: 100% 100%; }
+    .marca1__producto9 {
+      background-size: 100% 100%; }
+    .marca1__producto10 {
+      background-size: 100% 100%; }
+    .marca1__producto11 {
+      background-size: 100% 100%; }
+    .marca1__producto12 {
+      background-size: 100% 100%; }
     .marca1__producto1 {
       grid-area: 2 / 1 / 3 / 2; }
     .marca1__producto2 {
@@ -804,8 +1101,30 @@ p {
     grid-template-rows: 100px repeat(3, 1fr); }
     .marca2__titulo {
       grid-area: 1 / 1 / 2 / 4; }
-    .marca2__producto1, .marca2__producto2, .marca2__producto3, .marca2__producto4, .marca2__producto5, .marca2__producto6 {
-      background-size: 500px 500px; }
+    .marca2__producto1 {
+      background-size: 100% 100%; }
+    .marca2__producto2 {
+      background-size: 100% 100%; }
+    .marca2__producto3 {
+      background-size: 100% 100%; }
+    .marca2__producto4 {
+      background-size: 100% 100%; }
+    .marca2__producto5 {
+      background-size: 100% 100%; }
+    .marca2__producto6 {
+      background-size: 100% 100%; }
+    .marca2__producto7 {
+      background-size: 100% 100%; }
+    .marca2__producto8 {
+      background-size: 100% 100%; }
+    .marca2__producto9 {
+      background-size: 100% 100%; }
+    .marca2__producto10 {
+      background-size: 100% 100%; }
+    .marca2__producto11 {
+      background-size: 100% 100%; }
+    .marca2__producto12 {
+      background-size: 100% 100%; }
     .marca2__producto1 {
       grid-area: 2 / 1 / 3 / 2; }
     .marca2__producto2 {
@@ -825,8 +1144,30 @@ p {
     grid-template-rows: 100px repeat(3, 1fr); }
     .marca3__titulo {
       grid-area: 1 / 1 / 2 / 4; }
-    .marca3__producto1, .marca3__producto2, .marca3__producto3, .marca3__producto4, .marca3__producto5, .marca3__producto6 {
-      background-size: 500px 500px; }
+    .marca3__producto1 {
+      background-size: 100% 100%; }
+    .marca3__producto2 {
+      background-size: 100% 100%; }
+    .marca3__producto3 {
+      background-size: 100% 100%; }
+    .marca3__producto4 {
+      background-size: 100% 100%; }
+    .marca3__producto5 {
+      background-size: 100% 100%; }
+    .marca3__producto6 {
+      background-size: 100% 100%; }
+    .marca3__producto7 {
+      background-size: 100% 100%; }
+    .marca3__producto8 {
+      background-size: 100% 100%; }
+    .marca3__producto9 {
+      background-size: 100% 100%; }
+    .marca3__producto10 {
+      background-size: 100% 100%; }
+    .marca3__producto11 {
+      background-size: 100% 100%; }
+    .marca3__producto12 {
+      background-size: 100% 100%; }
     .marca3__producto1 {
       grid-area: 2 / 1 / 3 / 2; }
     .marca3__producto2 {
@@ -995,13 +1336,13 @@ p {
 
 @media screen and (max-width: 992px) {
   .novedades {
-    height: 1400px;
+    height: 1600px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
   .novedades {
-    height: 3500px;
+    height: 4000px;
     padding-top: 140px;
     display: flex;
     flex-direction: row;
@@ -1073,12 +1414,14 @@ p {
 
 @media screen and (max-width: 500px) {
   .novedades {
-    padding-top: 100px; } }
+    padding-top: 100px;
+    height: 2500px;
+    object-fit: cover; } }
 
 .sale {
   padding-top: 140px;
   padding-bottom: 20px;
-  height: 1600px;
+  height: 1400px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -1421,27 +1764,6 @@ p {
       width: 15%; }
     .sale__producto5__parrafo {
       width: 15%; } }
-
-.error404 {
-  background-image: url("../img/fondo de error 404.jpg");
-  background-size: 100% 100%;
-  height: 900px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; }
-  .error404__titulo {
-    color: darkred;
-    font-family: 'Gemunu Libre', sans-serif; }
-  .error404__subtitulo {
-    color: white; }
-
-@media screen and (max-width: 768px) {
-  .error404 {
-    height: 560px; }
-    .error404__titulo, .error404__subtitulo {
-      margin: 0px 25px;
-      text-align: center; } }
 
 /*FOOTER*/
 .footer {

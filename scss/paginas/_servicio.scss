@@ -37,8 +37,11 @@
 .marca3{
     @include productos;
     padding: 0%;
+    height: $mg-height*4;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5rem repeat(4, 1fr);
 
-    @for $i from 1 through 6 {
+    @for $i from 1 through 12 {
         &__producto#{$i}{
             background-image: url("../img/Otros/Otros-#{$i}.jpeg");
         }
