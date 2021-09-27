@@ -13,7 +13,7 @@
             flex-direction: column;
             justify-content: space-between;
             background-image: url("../img/Sale/Sale-#{$i}.jpeg");
-            background-size: 435px 470px;
+            background-size: 100% 100%;
 
 
             &__parrafo{
@@ -47,7 +47,7 @@
             flex-direction: column;
             justify-content: space-between;
             background-image: url("../img/UltimaUnidad/UltimaU-#{$i}.jpeg");
-            background-size: 435px 470px;
+            background-size: 100% 100%;
 
 
             &__parrafo--silver{
@@ -102,6 +102,7 @@
             &__producto#{$i}{
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
+                /*object-fit: cover;*/
 
                 &__parrafo{
                     width: $m-width;

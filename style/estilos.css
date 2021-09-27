@@ -856,26 +856,38 @@ p {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca1__producto1__link {
+        object-fit: cover; }
     .marca1__producto2 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca1__producto2__link {
+        object-fit: cover; }
     .marca1__producto3 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca1__producto3__link {
+        object-fit: cover; }
     .marca1__producto4 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca1__producto4__link {
+        object-fit: cover; }
     .marca1__producto5 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca1__producto5__link {
+        object-fit: cover; }
     .marca1__producto6 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca1__producto6__link {
+        object-fit: cover; }
   .marca2 {
     display: flex;
     flex-direction: row;
@@ -887,26 +899,38 @@ p {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca2__producto1__link {
+        object-fit: cover; }
     .marca2__producto2 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca2__producto2__link {
+        object-fit: cover; }
     .marca2__producto3 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca2__producto3__link {
+        object-fit: cover; }
     .marca2__producto4 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca2__producto4__link {
+        object-fit: cover; }
     .marca2__producto5 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca2__producto5__link {
+        object-fit: cover; }
     .marca2__producto6 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca2__producto6__link {
+        object-fit: cover; }
   .marca3 {
     display: flex;
     flex-direction: row;
@@ -918,26 +942,38 @@ p {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca3__producto1__link {
+        object-fit: cover; }
     .marca3__producto2 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca3__producto2__link {
+        object-fit: cover; }
     .marca3__producto3 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca3__producto3__link {
+        object-fit: cover; }
     .marca3__producto4 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca3__producto4__link {
+        object-fit: cover; }
     .marca3__producto5 {
       background-size: 100% 500px;
       width: 100%;
       height: 500px; }
+      .marca3__producto5__link {
+        object-fit: cover; }
     .marca3__producto6 {
       background-size: 100% 500px;
       width: 100%;
-      height: 500px; } }
+      height: 500px; }
+      .marca3__producto6__link {
+        object-fit: cover; } }
 
 /*NOVEDADES*/
 .novedades {
@@ -957,9 +993,15 @@ p {
     height: 100%;
     width: 100%; }
 
+@media screen and (max-width: 992px) {
+  .novedades {
+    height: 1400px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr); } }
+
 @media screen and (max-width: 768px) {
   .novedades {
-    height: 5000px;
+    height: 3500px;
     padding-top: 140px;
     display: flex;
     flex-direction: row;
@@ -1046,7 +1088,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     background-image: url("../img/Sale/Sale-1.jpeg");
-    background-size: 435px 470px; }
+    background-size: 100% 100%; }
     .sale__producto1__parrafo {
       background-color: red;
       color: white;
@@ -1066,7 +1108,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     background-image: url("../img/Sale/Sale-2.jpeg");
-    background-size: 435px 470px; }
+    background-size: 100% 100%; }
     .sale__producto2__parrafo {
       background-color: red;
       color: white;
@@ -1086,7 +1128,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     background-image: url("../img/Sale/Sale-3.jpeg");
-    background-size: 435px 470px; }
+    background-size: 100% 100%; }
     .sale__producto3__parrafo {
       background-color: red;
       color: white;
@@ -1106,7 +1148,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     background-image: url("../img/Sale/Sale-4.jpeg");
-    background-size: 435px 470px; }
+    background-size: 100% 100%; }
     .sale__producto4__parrafo {
       background-color: red;
       color: white;
@@ -1126,7 +1168,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     background-image: url("../img/Sale/Sale-5.jpeg");
-    background-size: 435px 470px; }
+    background-size: 100% 100%; }
     .sale__producto5__parrafo {
       background-color: red;
       color: white;
@@ -1147,7 +1189,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     background-image: url("../img/UltimaUnidad/UltimaU-6.jpeg");
-    background-size: 435px 470px; }
+    background-size: 100% 100%; }
     .sale__producto6__parrafo--silver {
       background-color: silver;
       color: black;
@@ -1168,7 +1210,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     background-image: url("../img/UltimaUnidad/UltimaU-7.jpeg");
-    background-size: 435px 470px; }
+    background-size: 100% 100%; }
     .sale__producto7__parrafo--silver {
       background-color: silver;
       color: black;
@@ -1189,7 +1231,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     background-image: url("../img/UltimaUnidad/UltimaU-8.jpeg");
-    background-size: 435px 470px; }
+    background-size: 100% 100%; }
     .sale__producto8__parrafo--silver {
       background-color: silver;
       color: black;
@@ -1210,7 +1252,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     background-image: url("../img/UltimaUnidad/UltimaU-9.jpeg");
-    background-size: 435px 470px; }
+    background-size: 100% 100%; }
     .sale__producto9__parrafo--silver {
       background-color: silver;
       color: black;
@@ -1274,7 +1316,8 @@ p {
         font-size: 20px; }
     .sale__producto6 {
       background-repeat: no-repeat;
-      background-size: 100% 100%; }
+      background-size: 100% 100%;
+      /*object-fit: cover;*/ }
       .sale__producto6__parrafo {
         width: 75%;
         font-size: 15px; }
@@ -1282,7 +1325,8 @@ p {
         font-size: 20px; }
     .sale__producto7 {
       background-repeat: no-repeat;
-      background-size: 100% 100%; }
+      background-size: 100% 100%;
+      /*object-fit: cover;*/ }
       .sale__producto7__parrafo {
         width: 75%;
         font-size: 15px; }
@@ -1290,7 +1334,8 @@ p {
         font-size: 20px; }
     .sale__producto8 {
       background-repeat: no-repeat;
-      background-size: 100% 100%; }
+      background-size: 100% 100%;
+      /*object-fit: cover;*/ }
       .sale__producto8__parrafo {
         width: 75%;
         font-size: 15px; }
@@ -1298,7 +1343,8 @@ p {
         font-size: 20px; }
     .sale__producto9 {
       background-repeat: no-repeat;
-      background-size: 100% 100%; }
+      background-size: 100% 100%;
+      /*object-fit: cover;*/ }
       .sale__producto9__parrafo {
         width: 75%;
         font-size: 15px; }
@@ -1389,6 +1435,13 @@ p {
     font-family: 'Gemunu Libre', sans-serif; }
   .error404__subtitulo {
     color: white; }
+
+@media screen and (max-width: 768px) {
+  .error404 {
+    height: 560px; }
+    .error404__titulo, .error404__subtitulo {
+      margin: 0px 25px;
+      text-align: center; } }
 
 /*FOOTER*/
 .footer {
