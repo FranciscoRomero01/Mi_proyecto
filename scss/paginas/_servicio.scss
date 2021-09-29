@@ -60,13 +60,43 @@
 
     .marca3{
         @include serviciomedia;
+        height: 150rem;
+        grid-template-rows: 100px repeat(6, 1fr);
+
+        &__producto1, &__producto2{
+            grid-area: 2;
+        }
+
+        &__producto3, &__producto4{
+            grid-area: 3;
+        }
+
+        &__producto5, &__producto6{
+            grid-area: 4;
+        }
+
+        &__producto7, &__producto8{
+            grid-area: 5;
+        }
+
+        &__producto9, &__producto10{
+            grid-area: 6;
+        }
+
+        &__producto11, &__producto12{
+            grid-area: 7;
+        }
     }
 }
 
 
 @media screen and (max-width:768px) {
-    .producto1{
+    .marca1{
         padding-top: 140px;
+    }
+
+    .marca3{
+        height: 2000px;
     }
 }
 
@@ -83,7 +113,7 @@
                 width: 100%;   
             }
 
-            @for $i from 1 through 6 {
+            @for $i from 1 through 12 {
                 &__producto#{$i}{
                     background-size: 100% 500px;
                     width: 100%;
@@ -94,6 +124,10 @@
                     }
                 }
             }
+        }
+
+        .marca3{
+            height: 6250px;
         }
     }
 }
